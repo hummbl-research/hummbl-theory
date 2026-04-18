@@ -12,13 +12,13 @@
 ### I.1 — Shannon (1948)
 **Origin**: Shannon, C.E. (1948). "A Mathematical Theory of Communication." *Bell System Technical Journal*, 27(3), 379–423.
 **Claim**: Information is the reduction of uncertainty. H(X) = -Σ p(x) log p(x). Channel capacity bounds reliable transmission. The entropy of a source is independent of meaning.
-**Operator**: AB — abstraction; Shannon separates information from semantics, creating a substrate-neutral measure
+**Operator**: DE — decomposition; Shannon separates information from semantics, isolating a substrate-neutral measure
 **Relevance**: Base120's token density constraints are Shannon-constrained. Context engineering is an applied information-theoretic problem: maximize semantic content per token while keeping H(context) below channel capacity. The entropy of a mental model library is a measure of its cognitive compression efficiency.
 
 ### I.2 — Kolmogorov Complexity (1965)
 **Origin**: Kolmogorov, A.N. (1965). "Three Approaches to the Quantitative Definition of Information." *Problems of Information Transmission*, 1(1), 1–7.
 **Claim**: The complexity of a string is the length of its shortest description. K(x) = min{|p| : U(p) = x}. Incompressible strings are random. Most strings are incompressible.
-**Operator**: AB — defines complexity as irreducible description length
+**Operator**: DE — defines complexity as irreducible description length
 **Relevance**: Base120 mental models are compression artifacts: they encode the minimal description of a cognitive transformation class. A library of 120 models has lower Kolmogorov complexity than the set of phenomena it describes, provided the models genuinely compress. MDL (Minimum Description Length, Rissanen 1978) is the statistical learning formalization of this claim.
 
 ### I.3 — Hartley (1928)
@@ -30,7 +30,7 @@
 ### I.4 — Minimum Description Length (Rissanen 1978)
 **Origin**: Rissanen, J. (1978). "Modeling by Shortest Data Description." *Automatica*, 14(5), 465–471.
 **Claim**: The best model of data is the one that minimizes the joint description length of the model and the data given the model. MDL ≈ Bayesian model selection with universal priors.
-**Operator**: AB — abstracts model selection to a compression problem
+**Operator**: DE — reduces model selection to a compression problem
 **Relevance**: The selection of 120 as cardinality for Base120 is an implicit MDL claim. The framework is optimal when it minimizes the total description length of the corpus of human cognitive operations it is designed to encode. Future work: formal MDL analysis of the 120-model set.
 
 ---
@@ -80,7 +80,7 @@
 ### III.3 — Friston Free Energy Principle (2006/2010)
 **Origin**: Friston, K. (2006). "A Free Energy Principle for the Brain." *Journal of Physiology-Paris*, 100(1–3), 70–87. Extended: Friston, K. (2010). "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience*, 11(2), 127–138.
 **Claim**: Biological systems minimize free energy (an upper bound on surprise) by either updating their internal models to better predict the world (perception/learning) or by acting to make the world conform to their predictions (action). All cognition is inference under a generative model.
-**Operator**: AB — unifies perception, action, learning, and attention under a single variational principle
+**Operator**: DE — reduces perception, action, learning, and attention to a single variational principle
 **Relevance**: AI systems are free-energy minimizers over their training distributions. Systems trained on non-representative corpora minimize surprise by marginalizing under-represented epistemic communities. BKI's inclusion mandate is a constraint on the generative model's prior — it ensures the free energy landscape does not exclude communities whose knowledge patterns are low-probability under the dominant training distribution.
 
 ---
@@ -118,7 +118,7 @@
 ### V.3 — Austin & Searle Speech Act Theory (1962/1969)
 **Origin**: Austin, J.L. (1962). *How to Do Things with Words*. Oxford University Press. Searle, J.R. (1969). *Speech Acts*. Cambridge University Press.
 **Claim**: Language does not merely describe — it performs. Utterances have illocutionary force (what the speaker does: promise, assert, command) and perlocutionary effect (what the utterance causes). Felicity conditions govern successful performance.
-**Operator**: TR — transformation of linguistic form into social action
+**Operator**: CO — composition of linguistic form and social context into performative action
 **Relevance**: HUMMBL governance receipts are speech acts: they perform governance (not merely describe it). A receipt that says "this AI action was logged" is performative — it constitutes a governance event, not just records one. This is the VERUM principle expressed in speech act theory terms: writing IS the act.
 
 ### V.4 — Grice Conversational Implicature (1975)
@@ -134,7 +134,7 @@
 ### VI.1 — Eilenberg & Mac Lane (1945)
 **Origin**: Eilenberg, S. & Mac Lane, S. (1945). "General Theory of Natural Equivalences." *Transactions of the American Mathematical Society*, 58(2), 231–294.
 **Claim**: Categories consist of objects and morphisms (structure-preserving maps). Functors map between categories. Natural transformations map between functors. Mathematics is the study of structure-preserving relationships, not objects in isolation.
-**Operator**: AB — abstracts mathematical objects to morphism structure
+**Operator**: DE — decomposes mathematical objects to morphism structure
 **Relevance**: Base120's 6-operator architecture is a category-theoretic claim: the operators are natural transformations between conceptual categories. The framework's claim to universality is the claim that these 6 transformations are sufficient — i.e., that all cognitive operations are compositions of these morphisms.
 
 ### VI.2 — Lawvere (1963) — Functorial Semantics
@@ -156,19 +156,19 @@
 ### VII.1 — Gödel Incompleteness (1931)
 **Origin**: Gödel, K. (1931). "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I." *Monatshefte für Mathematik und Physik*, 38, 173–198.
 **Claim**: Any sufficiently powerful consistent formal system contains true statements that cannot be proved within the system. No consistent system can prove its own consistency (Second Incompleteness Theorem).
-**Operator**: AB — meta-level: any formal system is incomplete relative to its own axioms
+**Operator**: SY — meta-system constraint: any formal system is incomplete relative to its own axioms
 **Relevance**: No single epistemic framework can be complete and consistent. Pluralism is not a preference — it is a logical necessity. Any governance system formal enough to specify all permissible knowledge claims will contain legitimate claims it cannot verify. HUMMBL's pluralism commitment is formally motivated by incompleteness.
 
 ### VII.2 — Turing Computability (1936)
 **Origin**: Turing, A.M. (1936). "On Computable Numbers, with an Application to the Entscheidungsproblem." *Proceedings of the London Mathematical Society*, 42(2), 230–265.
 **Claim**: A universal computing machine can simulate any other computing machine. The halting problem is undecidable. There exist well-defined problems that no algorithm can solve.
-**Operator**: AB — defines computation via substrate-neutral abstraction (the Turing machine)
+**Operator**: DE — defines computation via substrate-neutral decomposition (the Turing machine)
 **Relevance**: AI systems are Turing-equivalent universal function approximators. HUMMBL's governance problem is not decidable in general — there will always be AI behaviors that are well-defined yet cannot be automatically classified as compliant or non-compliant. Human judgment (HITL/HOTL) is not a design choice but a formal necessity.
 
 ### VII.3 — Cook-Levin Theorem (1971/1972)
 **Origin**: Cook, S.A. (1971). "The Complexity of Theorem Proving Procedures." *Proc. 3rd STOC*. Levin, L. (1973). "Universal Sequential Search Problems." *Problems of Information Transmission*, 9(3), 265–266.
 **Claim**: SAT is NP-complete. Any problem in NP reduces to SAT in polynomial time. The P vs. NP question is whether efficient verification implies efficient solution.
-**Operator**: AB — equivalence class: all NP problems are structurally equivalent
+**Operator**: DE — equivalence class: all NP problems decompose to SAT
 **Relevance**: Real-time AI governance is an NP-hard problem in the general case: verifying a governance decision is polynomial, but finding the optimal governance action is NP-hard. HUMMBL's practical architecture must trade off completeness (catch all violations) against tractability (respond in real time). The circuit breaker and kill switch are tractable approximations to the intractable optimal governance problem.
 
 ---
@@ -178,13 +178,13 @@
 ### VIII.1 — Popper Falsifiability (1934/1959)
 **Origin**: Popper, K.R. (1934). *Logik der Forschung*. Julius Springer. (English: *The Logic of Scientific Discovery*, 1959.)
 **Claim**: Scientific theories are distinguished by falsifiability, not verifiability. A theory that explains everything explains nothing. Corroboration is not confirmation. Science advances by bold conjecture and rigorous refutation.
-**Operator**: AB — meta-level criterion for scientific status
+**Operator**: IN — inversion: scientific status defined by what would disprove the claim
 **Relevance**: HUMMBL's governance claims must be falsifiable. The claim that "HUMMBL reduces AI governance failures" requires a falsifiable operationalization: specific metrics, specific baselines, specific failure modes. The tuple schema's Relevance field should always contain a falsifiable claim, not a vague aspiration.
 
 ### VIII.2 — Kuhn Paradigm Shifts (1962)
 **Origin**: Kuhn, T.S. (1962). *The Structure of Scientific Revolutions*. University of Chicago Press.
 **Claim**: Normal science operates within a paradigm (shared assumptions, exemplars, vocabulary). Anomalies accumulate until crisis triggers a paradigm shift — a revolutionary restructuring of the entire framework. Paradigms are incommensurable: translation between them is incomplete.
-**Operator**: TR — discontinuous transformation of the entire conceptual framework
+**Operator**: IN — inversion of the entire conceptual framework (paradigm shift)
 **Relevance**: The transition from rule-based AI to large language models is a Kuhnian paradigm shift in AI. HUMMBL must be paradigm-agnostic: its governance architecture should work across paradigms, because the next paradigm shift will make current LLM-specific governance frameworks obsolete. Base120's abstraction from implementation details is a Kuhnian hedge.
 
 ### VIII.3 — Lakatos Research Programmes (1970)
@@ -200,7 +200,7 @@
 ### IX.1 — Simon Bounded Rationality (1955)
 **Origin**: Simon, H.A. (1955). "A Behavioral Model of Rational Choice." *Quarterly Journal of Economics*, 69(1), 99–118.
 **Claim**: Agents do not maximize utility — they satisfice (find solutions that are "good enough" given cognitive constraints). Rationality is always bounded by time, information, and computational capacity. Organizations are cognitive artifacts that extend bounded rationality.
-**Operator**: AB — abstracts from optimization to satisficing under constraints
+**Operator**: DE — decomposes optimization to satisficing under constraints
 **Relevance**: HUMMBL's governance architecture is designed for bounded rational agents (both human and AI). The kill switch, circuit breaker, and governance receipts are satisficing mechanisms: they do not find optimal governance actions but terminate or constrain when thresholds are exceeded. This is the correct architecture for bounded rational governance.
 
 ### IX.2 — Weick Sensemaking (1995)
@@ -212,7 +212,7 @@
 ### IX.3 — Nonaka Knowledge Creation (1995)
 **Origin**: Nonaka, I. & Takeuchi, H. (1995). *The Knowledge-Creating Company*. Oxford University Press.
 **Claim**: Organizational knowledge creation involves four modes: socialization (tacit→tacit), externalization (tacit→explicit), combination (explicit→explicit), internalization (explicit→tacit). The SECI spiral drives knowledge creation through these four modes recursively.
-**Operator**: TR — transformation between tacit and explicit knowledge forms
+**Operator**: CO — composition across tacit and explicit knowledge forms (SECI spiral)
 **Relevance**: BKI's claim that tacit knowledge requires belonging infrastructure to transmit is a claim about the socialization and internalization phases of the SECI spiral. Externalization (tacit→explicit) and combination (explicit→explicit) can be performed by AI systems; socialization and internalization require human belonging relationships. HUMMBL's governance layer must preserve the social conditions for SECI cycles.
 
 ---
@@ -222,13 +222,13 @@
 ### X.1 — Boltzmann Entropy (1877)
 **Origin**: Boltzmann, L. (1877). "Über die Beziehung zwischen dem zweiten Hauptsatze der mechanischen Wärmetheorie und der Wahrscheinlichkeitsrechnung." *Sitzungsberichte der Akademie der Wissenschaften*, 76, 373–435.
 **Claim**: S = k ln W. Entropy is the logarithm of the number of microstates consistent with a macrostate. The second law of thermodynamics is a probabilistic statement, not a deterministic one. Disorder is overwhelmingly more probable than order.
-**Operator**: AB — probabilistic reinterpretation of a physical law
+**Operator**: DE — decomposes a physical law into probabilistic microstates
 **Relevance**: Shannon entropy is Boltzmann entropy applied to information. HUMMBL's governance infrastructure must fight the thermodynamic tendency toward disorder: without continuous maintenance (energy expenditure), governance structures dissipate. The formal equivalence of physical and informational entropy provides a principled basis for HUMMBL's operational cost model.
 
 ### X.2 — Landauer's Principle (1961)
 **Origin**: Landauer, R. (1961). "Irreversibility and Heat Generation in the Computing Process." *IBM Journal of Research and Development*, 5(3), 183–191.
 **Claim**: Logically irreversible operations (such as erasing a bit) necessarily generate heat. The minimum energy cost of erasing one bit is kT ln 2 ≈ 3×10⁻²¹ J at room temperature. Information has physical consequences.
-**Operator**: AB — equivalence: information erasure = thermodynamic cost
+**Operator**: CO — composes information theory with thermodynamics: erasure = heat
 **Relevance**: Audit trail deletion has an irreversible information-theoretic cost beyond the thermodynamic minimum — it destroys evidence of governance decisions. VERUM's append-only principle is Landauer's principle applied to governance: once a governance event is written, erasure is not merely a technical deletion but a destruction of governance evidence with irreversible consequences. HUMMBL's immutable audit logs are Landauer-motivated.
 
 ---
@@ -238,7 +238,7 @@
 ### XI.1 — Piaget Genetic Epistemology (1936/1952)
 **Origin**: Piaget, J. (1936). *La naissance de l'intelligence chez l'enfant*. Delachaux et Niestlé. (English: *The Origins of Intelligence in Children*, 1952.)
 **Claim**: Intelligence develops through invariant stages (sensorimotor, preoperational, concrete operational, formal operational). Development is driven by assimilation (fitting new experience to existing schemas) and accommodation (revising schemas to fit new experience). Equilibration drives stage transitions.
-**Operator**: TR — schema transformation through assimilation/accommodation cycles
+**Operator**: RE — recursive schema transformation through assimilation/accommodation cycles
 **Relevance**: Base120 mental models are Piagetian schemas: cognitive structures that assimilate new situations. Using a mental model on a new problem is assimilation; revising the model when it fails is accommodation. A mental model library that never accommodates is developmentally arrested. The tuple schema's Operator field tracks which transformation mode each model employs.
 
 ### XI.2 — Vygotsky Zone of Proximal Development (1934)
@@ -260,7 +260,7 @@
 ### XII.2 — Dawkins Memetics (1976)
 **Origin**: Dawkins, R. (1976). *The Selfish Gene*. Oxford University Press. Chapter 11: "Memes: The New Replicators."
 **Claim**: Memes are units of cultural transmission that replicate, mutate, and compete for cognitive and cultural "space." Memes propagate through imitation. Cultural evolution is Darwinian.
-**Operator**: AB — abstraction of biological replicator dynamics to cultural transmission
+**Operator**: DE — decomposes biological replicator dynamics to cultural transmission units
 **Relevance**: AI systems are the most powerful meme propagation infrastructure in history. Their training distributions define which memes achieve high fitness in the cultural selection environment. BKI is meta-memetic infrastructure: governance over the selection environment for memes. Without BKI, AI systems will optimize for meme fitness without regard for epistemic quality, belonging, or diversity.
 
 ### XII.3 — Ubuntu Philosophy (Ramose 1999; Tutu 1999)
@@ -288,7 +288,7 @@
 ### XIII.3 — Clark & Chalmers Extended Mind (1998)
 **Origin**: Clark, A. & Chalmers, D. (1998). "The Extended Mind." *Analysis*, 58(1), 7–19.
 **Claim**: Cognitive processes can extend beyond the skull and skin. Otto's notebook functions as his memory — it is part of his cognitive system. The mind is not brain-bound; it extends into tools, artifacts, and environment (the "parity principle").
-**Operator**: AB — boundary dissolution: mind = brain + relevant external artifacts
+**Operator**: DE — boundary decomposition: mind = brain + relevant external artifacts
 **Relevance**: If AI systems perform cognitive operations that would otherwise be internal to human cognition (memory, reasoning, planning), they constitute part of the extended mind of users. HUMMBL's governance mandate is to ensure this cognitive extension is equitable — that the extended mind prosthetic is not available only to privileged populations. BKI is extended-mind infrastructure for communities whose cognitive extension through AI is currently blocked by technical, economic, or epistemic barriers.
 
 ---
@@ -298,7 +298,7 @@
 ### XIV.1 — Von Neumann & Morgenstern (1944)
 **Origin**: Von Neumann, J. & Morgenstern, O. (1944). *Theory of Games and Economic Behavior*. Princeton University Press.
 **Claim**: Strategic interaction between rational agents can be modeled as games with payoff matrices. Zero-sum games have minimax solutions. Expected utility is the correct framework for decisions under uncertainty.
-**Operator**: AB — abstraction: strategic interaction = game with payoff structure
+**Operator**: DE — decomposes strategic interaction into game with payoff structure
 **Relevance**: AI governance is a multi-player game between AI developers, deployers, regulators, users, and affected communities. HUMMBL's governance architecture must account for the strategic incentives of all players, not assume cooperative compliance. The payoff structure of AI governance games determines which governance mechanisms are stable equilibria.
 
 ### XIV.2 — Nash Equilibrium (1950)
@@ -310,7 +310,7 @@
 ### XIV.3 — Hurwicz Mechanism Design (1960/2007)
 **Origin**: Hurwicz, L. (1960). "Optimality and Informational Efficiency in Resource Allocation Processes." In K.J. Arrow, S. Karlin & P. Suppes (Eds.), *Mathematical Methods in the Social Sciences*. Stanford University Press. (Nobel Prize in Economics, 2007.)
 **Claim**: Mechanism design is the "reverse engineering" of game theory: instead of predicting equilibria given rules, design rules to produce desired equilibria. Incentive compatibility requires that truth-telling (or desired behavior) is a dominant strategy under the mechanism.
-**Operator**: TR — reverse engineering: from desired outcomes to incentive-compatible rules
+**Operator**: IN — inversion of game theory: from desired outcomes to incentive-compatible rules
 **Relevance**: HUMMBL is mechanism design for AI governance. The governance receipts, trust scores, and IDP tokens are mechanisms designed to make governance compliance the dominant strategy for AI developers and deployers. The design question is incentive compatibility: under what mechanism design does an AI developer prefer HUMMBL governance compliance to non-compliance? This is HUMMBL's core commercial engineering problem.
 
 ### XIV.4 — Ostrom Commons Governance (1990)
