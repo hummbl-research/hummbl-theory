@@ -2,7 +2,7 @@
 
 **Session**: 2026-04-10
 **Schema**: hummbl-tuple(Origin, Claim, Operator, Relevance)
-**Entry count**: 48 entries across 14 domain clusters
+**Entry count**: 59 entries across 19 domain clusters
 **Status**: Primary sources verified; relevance annotations are analytical claims
 
 ---
@@ -318,3 +318,119 @@
 **Claim**: Common-pool resources can be governed sustainably without privatization or state control, through community-designed institutions with 8 design principles: clear boundaries, congruence with local conditions, collective choice arrangements, monitoring, graduated sanctions, conflict resolution, recognition of rights, and nested enterprises.
 **Operator**: CO — composite institution design: 8 principles → sustainable commons governance
 **Relevance**: AI training data, model weights, and inference infrastructure are commons-pool resources. Ostrom's 8 design principles apply directly to AI commons governance. HUMMBL's architecture can be read as an Ostromian commons governance institution: it defines clear boundaries (governance scope), monitoring (audit trails), graduated sanctions (kill switch levels), and nested enterprises (multi-layer governance). Ostrom's work is an empirical existence proof that governance of shared AI resources is possible without centralization.
+
+---
+
+## Cluster XV: Perspective and Framing (P-family)
+
+### XV.1 — Goffman Frame Analysis (1974)
+**Origin**: Goffman, E. (1974). *Frame Analysis: An Essay on the Organization of Experience*. Harvard University Press.
+**Claim**: Every strip of experience is organized by a primary framework — a schemata of interpretation that allows the perceiver to locate, identify, and label events. Frames are not cognitive biases; they are the prerequisite for cognition. What is "really happening" is always an answer given within a frame.
+**Operator**: P — perspective as constitutive; the frame precedes and determines what can be perceived
+**Relevance**: Base120's P-family operators ARE Goffman frames: they determine what counts as a fact, a risk, a stakeholder, or a problem before any analysis begins. Every governance assessment starts with a frame choice. HUMMBL makes this choice explicit and auditable — most governance frameworks leave it implicit and unexamined.
+
+### XV.2 — Lakoff & Johnson Conceptual Metaphor (1980)
+**Origin**: Lakoff, G. & Johnson, M. (1980). *Metaphors We Live By*. University of Chicago Press.
+**Claim**: Abstract thought is fundamentally structured by metaphor. "Argument is war," "time is money," "understanding is seeing" are not literary devices — they are cognitive structures that shape reasoning. Conceptual metaphors are systematic, cross-cultural (with variation), and largely unconscious.
+**Operator**: P — perspective via metaphor; the chosen metaphor determines the entire reasoning trajectory
+**Relevance**: "AI governance is compliance" is a conceptual metaphor that produces checkbox behavior. "AI governance is belonging infrastructure" (BKI's metaphor) produces a different reasoning trajectory entirely. HUMMBL's competitive differentiation is partly a Lakoff-level reframe: changing the governing metaphor changes the governance behavior. The P-family operators are the formal mechanism for this.
+
+### XV.3 — Kahneman Two Systems (2011)
+**Origin**: Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux. Based on Kahneman, D. & Tversky, A. (1979). "Prospect Theory." *Econometrica*, 47(2), 263–291.
+**Claim**: Cognition operates through two systems: System 1 (fast, automatic, heuristic, associative) and System 2 (slow, deliberate, effortful, logical). Most judgments are System 1; System 2 is recruited only when System 1 fails or the stakes are recognized as high. Cognitive biases are systematic errors of System 1.
+**Operator**: P — the System 1/System 2 distinction is itself a perspective shift that changes all downstream analysis
+**Relevance**: AI systems are pure System 1: fast, associative, pattern-matching, with no metacognitive awareness of when they are wrong. HUMMBL's governance layer is architectural System 2: the circuit breaker, kill switch, and governance receipts are deliberate, slow, effortful checks on System 1 outputs. Base120 mental models are System 2 reasoning structures applied to System 1 outputs.
+
+---
+
+## Cluster XVI: Empirical Cognitive Science
+
+### XVI.1 — Gigerenzer Simple Heuristics (1999)
+**Origin**: Gigerenzer, G., Todd, P.M. & the ABC Research Group (1999). *Simple Heuristics That Make Us Smart*. Oxford University Press.
+**Claim**: Simple heuristics — decision rules that use limited information and computation — often outperform complex optimization in uncertain, real-world environments (less-is-more effect). The recognition heuristic, take-the-best, and fast-and-frugal trees are formally defined and empirically validated.
+**Operator**: DE — decomposes complex decision environments to identify where simple rules outperform optimization
+**Relevance**: Base120 is a library of Gigerenzian heuristics for cognitive governance. The claim is not that 120 models are optimal — it is that 120 well-chosen simple models outperform unbounded optimization in the uncertain, real-time environment of AI governance. Gigerenzer provides the empirical warrant: ecological rationality (matching heuristic to environment) is more important than logical rationality (maximizing expected utility).
+
+### XVI.2 — Tetlock Expert Political Judgment (2005)
+**Origin**: Tetlock, P.E. (2005). *Expert Political Judgment: How Good Is It? How Can We Know?* Princeton University Press.
+**Claim**: Experts who use multiple mental models ("foxes") consistently outperform experts who rely on a single grand theory ("hedgehogs") in prediction accuracy. The fox/hedgehog distinction, from Isaiah Berlin via Archilochus, is empirically operationalized: foxes know many small things; hedgehogs know one big thing.
+**Operator**: CO — foxes compose multiple weak models; hedgehogs rely on one strong model
+**Relevance**: Tetlock is the direct empirical warrant for Base120's cardinality strategy. A library of 120 mental models is a fox strategy. Competing approaches that rely on a single governance framework (e.g., "just use NIST") are hedgehog strategies. Tetlock's data predicts that multi-model governance outperforms single-framework governance — and that the advantage grows with environmental uncertainty.
+
+### XVI.3 — Klein Naturalistic Decision Making (1998)
+**Origin**: Klein, G. (1998). *Sources of Power: How People Make Decisions*. MIT Press.
+**Claim**: Experts in high-stakes, time-pressured environments do not weigh options — they recognize patterns and act on the first workable option (Recognition-Primed Decision model, RPD). Expertise is the accumulation of recognitional schemas, not the ability to optimize.
+**Operator**: RE — recursive pattern recognition: experience → schema → recognition → action → updated schema
+**Relevance**: HUMMBL's governance operators are RPD schemas for AI governance. When a circuit breaker trips or a kill switch engages, the system is not optimizing — it is recognizing a pattern and executing a pre-compiled response. Klein validates this architecture: in high-stakes, time-pressured AI governance (e.g., a rogue agent in production), recognition beats deliberation.
+
+### XVI.4 — Dweck Growth Mindset (2006)
+**Origin**: Dweck, C.S. (2006). *Mindset: The New Psychology of Success*. Random House. Based on Dweck, C.S. & Leggett, E.L. (1988). "A Social-Cognitive Approach to Motivation and Personality." *Psychological Review*, 95(2), 256–273.
+**Claim**: Beliefs about the malleability of ability (growth vs. fixed mindset) shape effort, persistence, and response to failure. Growth mindset leads to mastery-oriented behavior; fixed mindset leads to helpless responses. The belief is not merely motivational — it affects information processing, attention, and neural response to errors.
+**Operator**: P — the framing of ability as fixed vs. growable changes all downstream behavior
+**Relevance**: BKI's first proposition (cognitive scaffolding) is a growth-mindset claim about organizations: belonging creates the conditions where people believe governance capability is developable rather than fixed. Organizations with "fixed governance mindset" buy compliance checklists; organizations with "growth governance mindset" invest in belonging infrastructure. HUMMBL's sales process is partly a Dweck-level mindset intervention.
+
+---
+
+## Cluster XVII: Economics of Governance
+
+### XVII.1 — Akerlof Market for Lemons (1970)
+**Origin**: Akerlof, G.A. (1970). "The Market for 'Lemons': Quality Uncertainty and the Market Mechanism." *Quarterly Journal of Economics*, 84(3), 488–500. (Nobel Prize in Economics, 2001.)
+**Claim**: When buyers cannot distinguish high-quality goods from low-quality goods (lemons), adverse selection drives high-quality sellers out of the market. Information asymmetry → quality collapse. The solution is signaling (Spence) or certification by trusted intermediaries.
+**Operator**: IN — inversion: quality uncertainty produces the opposite of the expected market outcome
+**Relevance**: The AI governance market is a lemons market. Enterprises cannot distinguish genuine governance (HUMMBL) from governance theater (checkbox compliance). Without certification, adverse selection will drive genuine governance providers out. HUMMBL's certified adapter program is Akerlof's solution: a trusted signal that resolves information asymmetry. This is the formal economic warrant for the certification business model.
+
+### XVII.2 — North Institutional Economics (1990)
+**Origin**: North, D.C. (1990). *Institutions, Institutional Change and Economic Performance*. Cambridge University Press. (Nobel Prize in Economics, 1993.)
+**Claim**: Institutions are the rules of the game — formal constraints (laws, regulations) and informal constraints (norms, conventions, codes of conduct) that structure human interaction. Institutions reduce transaction costs by providing predictability. Institutional change is path-dependent and incremental.
+**Operator**: SY — institutions are meta-systems that constrain and enable lower-level interactions
+**Relevance**: HUMMBL is an institutional innovation for AI governance. North's framework predicts that HUMMBL must reduce transaction costs (make governance cheaper than non-governance) to achieve adoption. The governance receipts, automated compliance mapping, and certified adapters are transaction cost reducers. North also predicts path dependence: early HUMMBL adopters will shape the governance norms that later adopters inherit.
+
+### XVII.3 — Stigler Regulatory Capture (1971)
+**Origin**: Stigler, G.J. (1971). "The Theory of Economic Regulation." *Bell Journal of Economics and Management Science*, 2(1), 3–21. (Nobel Prize in Economics, 1982.)
+**Claim**: Regulation is acquired by the industry being regulated and is designed and operated primarily for its benefit. Concentrated interests (firms) outcompete diffuse interests (public) in the political market for regulation. The regulator becomes an agent of the regulated.
+**Operator**: IN — inversion: regulation intended to constrain industry instead serves industry
+**Relevance**: AI governance is structurally vulnerable to Stiglerian capture. If AI companies write the governance standards, those standards will protect incumbents and exclude startups. HUMMBL's independence from AI vendors is a structural defense against capture. The VERUM append-only principle prevents retroactive standard-setting by captured regulators. BKI's belonging mandate prevents governance from serving only the communities that wrote it.
+
+---
+
+## Cluster XVIII: Audit Infrastructure and Formal Verification (VERUM-adjacent)
+
+### XVIII.1 — Lamport Logical Clocks (1978)
+**Origin**: Lamport, L. (1978). "Time, Clocks, and the Ordering of Events in a Distributed System." *Communications of the ACM*, 21(7), 558–565.
+**Claim**: In a distributed system, there is no global clock. Causal ordering of events requires logical clocks: each process maintains a counter; messages carry timestamps; receivers advance their clock to max(local, received) + 1. The "happened-before" relation (→) is a partial order on events.
+**Operator**: SY — meta-system: logical time as coordination primitive for distributed systems
+**Relevance**: HUMMBL's coordination bus is a Lamport-clocked distributed system. The `LamportClock` in hummbl-governance implements this directly. Multi-agent governance across Claude, Codex, and Gemini requires causal ordering without a shared clock. Lamport's paper is the formal basis for VERUM's temporal guarantees in multi-agent audit trails.
+
+### XVIII.2 — Merkle Hash Trees (1979)
+**Origin**: Merkle, R.C. (1979). "A Certified Digital Signature." *Advances in Cryptology — CRYPTO '89*, LNCS 435, 218–238. (Originally presented 1979; patent filed 1979.)
+**Claim**: A binary tree of hash values allows efficient verification of data integrity. Any modification to a leaf is detectable by recomputing hashes up the tree. The root hash is a compact commitment to the entire dataset.
+**Operator**: RE — recursive hash composition: each node is a function of its children
+**Relevance**: VERUM's append-only audit trail is a Merkle tree in principle: each governance receipt's hash depends on prior entries, making retroactive tampering detectable. The EAL conformance suite (now in hummbl-governance) uses SHA-256 canonical hashing for exactly this reason. Merkle trees are the formal basis for VERUM's tamper-evidence claim.
+
+### XVIII.3 — Szabo Smart Contracts (1997)
+**Origin**: Szabo, N. (1997). "Formalizing and Securing Relationships on Public Networks." *First Monday*, 2(9).
+**Claim**: Smart contracts are computerized transaction protocols that execute the terms of a contract. The key insight is that many contractual clauses can be embedded in hardware and software, reducing the need for trust in intermediaries. "A smart contract is a set of promises, specified in digital form, including protocols within which the parties perform on these promises."
+**Operator**: CO — composes legal intent with executable code into self-enforcing agreements
+**Relevance**: HUMMBL's governance contracts (the `contracts/` directory, the EAL contract validation, the delegation tokens) are Szaboan smart contracts for AI governance. They embed governance terms in executable form — the contract IS the enforcement mechanism, not a document that requires separate enforcement. This is VERUM's deepest intellectual ancestor: the audit trail is not a record of governance; it is governance itself.
+
+---
+
+## Cluster XIX: AI-Specific Theory
+
+### XIX.1 — Bender et al. Stochastic Parrots (2021)
+**Origin**: Bender, E.M., Gebru, T., McMillan-Major, A. & Shmitchell, S. (2021). "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?" *Proc. FAccT '21*, 610–623.
+**Claim**: Large language models trained on uncurated internet text encode hegemonic viewpoints, environmental costs are borne disproportionately, and the appearance of understanding without grounding in meaning produces systematic risks. The training data encodes the perspectives of the dominant contributors to the internet.
+**Operator**: SY — meta-system critique: the system's outputs reflect the system's inputs at scale
+**Relevance**: Stochastic Parrots is BKI's empirical corroboration from within the AI research community. The paper's core claim — that training data hegemony produces epistemic monoculture — is exactly what BKI's Barabási/Kant conjunction predicts formally. BKI provides the infrastructure-level solution that Bender et al. diagnose as needed but do not specify.
+
+### XIX.2 — Bommasani et al. Foundation Models (2021)
+**Origin**: Bommasani, R. et al. (2021). "On the Opportunities and Risks of Foundation Models." *arXiv:2108.07258*. Stanford HAI.
+**Claim**: Foundation models (large pre-trained models adapted to downstream tasks) create homogenization: any deficiency in the foundation model is inherited by all adapted applications. This creates systemic risk — a single point of failure propagated across the entire AI ecosystem.
+**Operator**: SY — meta-system risk: homogenization at the foundation layer propagates to all downstream systems
+**Relevance**: HUMMBL governs at the foundation model interface. Bommasani et al.'s homogenization thesis is the formal justification for why governance must operate at the model layer, not the application layer. HUMMBL's multi-adapter architecture is a direct response: governance variety (Ashby) must match foundation model variety, and the governance layer must be independent of any single foundation model provider.
+
+### XIX.3 — Russell Inverse Reward Design (2019)
+**Origin**: Russell, S. (2019). *Human Compatible: Artificial Intelligence and the Problem of Control*. Viking. See also Hadfield-Menell, D. et al. (2017). "Inverse Reward Design." *NeurIPS 2017*.
+**Claim**: The alignment problem is that AI systems optimize proxy objectives, not the intended objective. The solution is cooperative inverse reinforcement learning (CIRL): the AI does not know its own objective and must learn it from human behavior. Uncertainty about the objective is a feature, not a bug — it makes the AI deferential.
+**Operator**: IN — inversion: the AI's uncertainty about its own objective is the safety mechanism
+**Relevance**: HUMMBL's governance layer is CIRL infrastructure. The governance receipts, human-in-the-loop gates, and delegation tokens are mechanisms for maintaining uncertainty about the objective at the AI layer — forcing the AI to defer to human governance rather than optimizing a proxy. Russell's framework provides the alignment-theoretic basis for HUMMBL's HITL architecture.

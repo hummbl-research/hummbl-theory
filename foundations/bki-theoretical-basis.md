@@ -62,6 +62,24 @@ Two independent theoretical traditions converge on BKI's central problem:
 ### XIII.3 — Clark & Chalmers Extended Mind (1998)
 **BKI relevance**: If AI systems perform cognitive operations that would otherwise be internal, they constitute part of the extended mind of users. BKI's governance mandate is to ensure this extension is equitable — that cognitive augmentation through AI is available across communities, not only to privileged populations.
 
+### XV.2 — Lakoff & Johnson Conceptual Metaphor (1980)
+**BKI relevance**: "AI governance is compliance" is a metaphor that produces checkbox behavior. "AI governance is belonging infrastructure" is the BKI reframe. The governing metaphor determines whether governance creates belonging or threat. HUMMBL's competitive differentiation is partly a metaphor-level intervention.
+
+### XVI.2 — Tetlock Expert Political Judgment (2005)
+**BKI relevance**: Multi-model reasoning (foxes) outperforms single-framework reasoning (hedgehogs). BKI predicts that belonging-diverse teams will adopt multi-model governance naturally, because diverse belonging structures produce diverse epistemic perspectives.
+
+### XVI.4 — Dweck Growth Mindset (2006)
+**BKI relevance**: BKI's first proposition (cognitive scaffolding) is a growth mindset claim about organizations. Belonging creates conditions where governance capability is experienced as developable. Low-belonging environments produce fixed-governance mindset: "we can't do AI governance, it's too complex."
+
+### XVII.1 — Akerlof Market for Lemons (1970)
+**BKI relevance**: Without belonging infrastructure, governance markets collapse via adverse selection. Organizations that invest in genuine governance (high cost) are indistinguishable from those that buy checkbox compliance (low cost). BKI certification resolves the information asymmetry.
+
+### XVII.3 — Stigler Regulatory Capture (1971)
+**BKI relevance**: Governance without belonging is vulnerable to capture by the communities that wrote it. BKI's mandate for epistemic pluralism is a structural defense against Stiglerian capture — governance must serve all affected communities, not just the drafters.
+
+### XIX.1 — Bender et al. Stochastic Parrots (2021)
+**BKI relevance**: The paper's core claim — training data hegemony produces epistemic monoculture — is exactly what BKI's Barabási/Kant conjunction predicts formally. Bender et al. is BKI's strongest empirical corroboration from within the AI research community.
+
 ---
 
 ## Citation Priority for BKI White Paper
@@ -70,5 +88,9 @@ Two independent theoretical traditions converge on BKI's central problem:
 2. Kant (1781) — categorical constitution of experience
 3. Ramose (1999) / Tutu (1999) — Ubuntu relational epistemology
 4. Friston (2006/2010) — surprise suppression as mechanism of marginalization
-5. Vygotsky (1934) — ZPD as framework for scaffolding vs. replacement
-6. Peirce (~1867–1910) — triadic semiotics and community-constituted meaning
+5. Bender et al. (2021) — training data hegemony as empirical corroboration
+6. Vygotsky (1934) — ZPD as framework for scaffolding vs. replacement
+7. Peirce (~1867–1910) — triadic semiotics and community-constituted meaning
+8. Akerlof (1970) — information asymmetry → governance market failure
+9. Tetlock (2005) — multi-model superiority as empirical warrant
+10. Lakoff & Johnson (1980) — metaphor as governance frame determinant
