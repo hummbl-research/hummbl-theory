@@ -13,7 +13,7 @@
 **Origin**: Shannon, C.E. (1948). "A Mathematical Theory of Communication." *Bell System Technical Journal*, 27(3), 379–423.
 **Claim**: Information is the reduction of uncertainty. H(X) = -Σ p(x) log p(x). Channel capacity bounds reliable transmission. The entropy of a source is independent of meaning.
 **Operator**: AB — abstraction; Shannon separates information from semantics, creating a substrate-neutral measure
-**Relevance**: HCC v2.0's token density constraints are Shannon-constrained. Context engineering is an applied information-theoretic problem: maximize semantic content per token while keeping H(context) below channel capacity. The entropy of a mental model library is a measure of its cognitive compression efficiency.
+**Relevance**: Base120's token density constraints are Shannon-constrained. Context engineering is an applied information-theoretic problem: maximize semantic content per token while keeping H(context) below channel capacity. The entropy of a mental model library is a measure of its cognitive compression efficiency.
 
 ### I.2 — Kolmogorov Complexity (1965)
 **Origin**: Kolmogorov, A.N. (1965). "Three Approaches to the Quantitative Definition of Information." *Problems of Information Transmission*, 1(1), 1–7.
@@ -75,7 +75,7 @@
 **Origin**: Rao, R.P.N. & Ballard, D.H. (1999). "Predictive Coding in the Visual Cortex: A Functional Interpretation of Some Extra-Classical Receptive Field Effects." *Nature Neuroscience*, 2(1), 79–87.
 **Claim**: The cortex implements hierarchical predictive coding: higher areas generate predictions; lower areas report prediction errors. Only errors propagate upward; predictions propagate downward. Processing minimizes prediction error across the hierarchy.
 **Operator**: RE — recursive error minimization across hierarchical levels
-**Relevance**: HCC v2.0's context engineering is predictive coding applied to language models: the context encodes predictions about what the model needs; the model processes only what deviates from those predictions. Efficient context = minimal prediction error surface.
+**Relevance**: Base120's context engineering is predictive coding applied to language models: the context encodes predictions about what the model needs; the model processes only what deviates from those predictions. Efficient context = minimal prediction error surface.
 
 ### III.3 — Friston Free Energy Principle (2006/2010)
 **Origin**: Friston, K. (2006). "A Free Energy Principle for the Brain." *Journal of Physiology-Paris*, 100(1–3), 70–87. Extended: Friston, K. (2010). "The Free-Energy Principle: A Unified Brain Theory?" *Nature Reviews Neuroscience*, 11(2), 127–138.
@@ -119,13 +119,13 @@
 **Origin**: Austin, J.L. (1962). *How to Do Things with Words*. Oxford University Press. Searle, J.R. (1969). *Speech Acts*. Cambridge University Press.
 **Claim**: Language does not merely describe — it performs. Utterances have illocutionary force (what the speaker does: promise, assert, command) and perlocutionary effect (what the utterance causes). Felicity conditions govern successful performance.
 **Operator**: TR — transformation of linguistic form into social action
-**Relevance**: HUMMBL governance receipts are speech acts: they perform governance (not merely describe it). A receipt that says "this AI action was logged" is performative — it constitutes a governance event, not just records one. This is the Base4 principle expressed in speech act theory terms: writing IS the act.
+**Relevance**: HUMMBL governance receipts are speech acts: they perform governance (not merely describe it). A receipt that says "this AI action was logged" is performative — it constitutes a governance event, not just records one. This is the VERUM principle expressed in speech act theory terms: writing IS the act.
 
 ### V.4 — Grice Conversational Implicature (1975)
 **Origin**: Grice, H.P. (1975). "Logic and Conversation." In P. Cole & J.L. Morgan (Eds.), *Syntax and Semantics, Vol. 3: Speech Acts*. Academic Press.
 **Claim**: Conversation is governed by a Cooperative Principle (be truthful, informative, relevant, perspicuous). Implicatures arise when speakers appear to violate a maxim but are assumed to be cooperative. Meaning exceeds what is literally said.
 **Operator**: IN — inference from apparent maxim violations to implied content
-**Relevance**: HCC v2.0 context engineering exploits Gricean maxims: a well-engineered context is maximally informative relative to the task (quantity), relevant (relation), unambiguous (manner), and accurate (quality). Context bloat is a Gricean violation — it is less cooperative than a compact, relevant context.
+**Relevance**: Base120 context engineering exploits Gricean maxims: a well-engineered context is maximally informative relative to the task (quantity), relevant (relation), unambiguous (manner), and accurate (quality). Context bloat is a Gricean violation — it is less cooperative than a compact, relevant context.
 
 ---
 
@@ -207,7 +207,7 @@
 **Origin**: Weick, K.E. (1995). *Sensemaking in Organizations*. Sage Publications.
 **Claim**: Organizations construct their environments through sensemaking — retrospective, plausible accounts of what is happening. Sensemaking is social, identity-driven, and enacted (the environment is partially created by how it is interpreted). "How can I know what I think until I see what I say?"
 **Operator**: RE — recursive: action produces the environment that action then interprets
-**Relevance**: HUMMBL's governance receipts are sensemaking artifacts. They do not merely record what happened — they constitute the organization's account of what happened. Base4's principle (writing IS the act) is a sensemaking claim: the governance audit trail is the organization's enacted understanding of its AI governance. The quality of the receipts determines the quality of the sensemaking.
+**Relevance**: HUMMBL's governance receipts are sensemaking artifacts. They do not merely record what happened — they constitute the organization's account of what happened. VERUM's principle (writing IS the act) is a sensemaking claim: the governance audit trail is the organization's enacted understanding of its AI governance. The quality of the receipts determines the quality of the sensemaking.
 
 ### IX.3 — Nonaka Knowledge Creation (1995)
 **Origin**: Nonaka, I. & Takeuchi, H. (1995). *The Knowledge-Creating Company*. Oxford University Press.
@@ -229,7 +229,7 @@
 **Origin**: Landauer, R. (1961). "Irreversibility and Heat Generation in the Computing Process." *IBM Journal of Research and Development*, 5(3), 183–191.
 **Claim**: Logically irreversible operations (such as erasing a bit) necessarily generate heat. The minimum energy cost of erasing one bit is kT ln 2 ≈ 3×10⁻²¹ J at room temperature. Information has physical consequences.
 **Operator**: AB — equivalence: information erasure = thermodynamic cost
-**Relevance**: Audit trail deletion has an irreversible information-theoretic cost beyond the thermodynamic minimum — it destroys evidence of governance decisions. Base4's append-only principle is Landauer's principle applied to governance: once a governance event is written, erasure is not merely a technical deletion but a destruction of governance evidence with irreversible consequences. HUMMBL's immutable audit logs are Landauer-motivated.
+**Relevance**: Audit trail deletion has an irreversible information-theoretic cost beyond the thermodynamic minimum — it destroys evidence of governance decisions. VERUM's append-only principle is Landauer's principle applied to governance: once a governance event is written, erasure is not merely a technical deletion but a destruction of governance evidence with irreversible consequences. HUMMBL's immutable audit logs are Landauer-motivated.
 
 ---
 

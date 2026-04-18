@@ -31,7 +31,7 @@ These are load-bearing. Never blur them.
 
 See `MM.md` and `WM.md` in this directory for the full specification.
 
-### Base4 (Append-Only Sovereignty)
+### VERUM (Append-Only Sovereignty, formerly Base4)
 
 - The audit log is truth. Writing IS the act. The system never reads its own log.
 - External tools analyze; the system does not self-observe its own output
