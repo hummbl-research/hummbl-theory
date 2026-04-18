@@ -83,7 +83,7 @@ This is the strongest defensible claim. It avoids:
 
 ## Governed Update Protocol
 
-World-model updates in HUMMBL are not silent mutations. The governing principle (Base4):
+World-model updates in HUMMBL are not silent mutations. The governing principle (VERUM):
 
 1. **Append-only** — beliefs accumulate; old beliefs are not overwritten silently
 2. **Attributable** — every update records its source agent, timestamp, and evidence

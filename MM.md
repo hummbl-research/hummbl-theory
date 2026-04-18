@@ -71,7 +71,7 @@ Base120 operates ON the world model. It is not the world model.
 
 3. **Auditability** — which operators were selected is recorded in tuples. Reasoning paths are not opaque.
 
-4. **Non-recursiveness** — the mental-model layer does not read its own audit log (Base4 principle). External analysis tools inspect the trace.
+4. **Non-recursiveness** — the mental-model layer does not read its own audit log (VERUM principle). External analysis tools inspect the trace.
 
 ---
 

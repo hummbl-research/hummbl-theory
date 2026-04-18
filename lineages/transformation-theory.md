@@ -1,6 +1,6 @@
 # Lineage: Transformation Theory → Base120
 
-**Trace**: Euclid → Galois (1832) → Cayley (1858) → Klein (1872) → HCC v2.0 operators → Base120
+**Trace**: Euclid → Galois (1832) → Cayley (1858) → Klein (1872) → Base120 operators
 
 ## Key Nodes
 
@@ -19,6 +19,6 @@ Klein's Erlangen Programme redefined geometry from object-centric to operation-c
 
 ## Open Research Questions
 
-- [ ] Do the 6 HCC operators form a group (invertible), monoid (identity), or semigroup?
+- [ ] Do the 6 Base120 operators form a group (invertible), monoid (identity), or semigroup?
 - [ ] Which operator sequences are canonically reversible (adjoint pairs)?
 - [ ] Is the Base120 operator set complete in Klein's sense?
