@@ -23,7 +23,7 @@ These three claims map onto three theoretical traditions:
 ## Status
 
 - `foundations/corpus-v1-provenance.md` — 6 provenance entries (mental model, world model, transformation, base, epistemic lenses, networks) — COMPLETE
-- `foundations/corpus-v2-lateral-expansion.md` — 48 entries across 14 domain clusters — COMPLETE
+- `foundations/corpus-v2-lateral-expansion.md` — 59 entries across 19 domain clusters — COMPLETE
 - `foundations/bki-theoretical-basis.md` — BKI-keyed relevance extractions — COMPLETE
 - `MM.md` — Mental Models layer spec — Draft
 - `WM.md` — World Models layer spec — Draft
